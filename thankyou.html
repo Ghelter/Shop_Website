@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="newsletter.css">
+<title>Thank you!</title>
+</head>
+<body>
+<p>Thank you for subscribing to our Newsletters!</p>
+
+
+
+<script>
+function pop_up(form) {
+      window.open("thankyou.html, SpecsWindow","toolbar=no","menubar=no","location=no", "_blank", "scrollbars=no","resizable=no","width=960","height=600");
+      form.target = 'formpopup';
+    //  window.location.replace('thankyou.html');
+  }
+
+function closeWindow() {
+  setTimeout(function() {
+    window.close();
+      }, 3000);
+}
+
+
+</script>
+
+</body>
+</html>

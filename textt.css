@@ -1,0 +1,70 @@
+.clearfix:after {
+			content: "";
+			clear: both;
+			display: table;
+			}
+			body, p {
+				padding: 0;
+				margin: 0;
+				border: 0;
+			}
+			input {
+				display: block;
+			}
+			.upper {
+				width: 100%;
+				height: 10em;
+				background: blue;
+			}
+			.picdiv {
+				background: pink;
+				float: left;
+				height: 10em;
+				max-width: 200px;
+				overflow: hidden;
+			}
+			.uppertext {
+				width: auto;
+				text-align: center;
+				font-size: 6em;
+				color: black;
+				padding-top: 20px;
+				overflow: hidden;
+			}
+			#pic{
+				width: 100%;
+				height: 100%;
+			}
+
+			.content {
+				box-sizing: border-box;
+				position: relative;
+				height: 10em;
+				width: 50%;
+				padding: 1em;
+				margin: 0 auto;
+				background: grey;
+				text-align: center;
+			}
+
+			form {
+
+			}
+
+		input[type="email"], input[type="submit"] {
+		display: block;
+    margin-top: 0em;
+		height: 40px;
+		line-height: 1;
+		font-size: 16px;
+		padding: 300px 40px;
+		font-family: "Source Sans Pro",sans-serif;
+		border: 1px solid #c8c5ae;
+    background-color: #fff;
+    height: 20px;
+    padding: 1px 4px;
+    font-size: 13px;
+    line-height: 16px;
+    font-family: "Segoe UI",Arial,Helvetica,Sans-Serif;
+    -webkit-appearance: none;
+			}
