@@ -1,60 +1,82 @@
 <DOCTYPE html>
-<html lang = "en">
-<head>
-<!--
+	<html lang="en">
+
+	<head>
+		<!--
 	ProductPage.htm
 	Final Project
 	Anthony Rivera
 -->
-	<meta charset="utf-8" />
-	<title>Windbreaker</title>
-<link rel="stylesheet" href="generalstyle.css">
-</head>
+		<meta charset="utf-8" />
+		<title>Windbreaker</title>
+		<link rel="stylesheet" href="generalstyle.css">
+	</head>
 
-<body>
-	<header>
-		<h1>Windbreaker</h1>
+	<body>
+		<header>
+			<nav>
+				<ul>
+					<ul>
+						<li><a href="AboutUs.html">About Us</a></li>
+						<li><a href="shoppingcart.html">Shopping Cart</a></li>
+						<li><a href="newsletter.html">Newsletters</a></li>
+						<li><a href="Products.html">Products</a></li>
+						<li><a href="index.html">Home</a></li>
+					</ul>
+			</nav>
+		</Header>
+		<div class="ProductPicture">
+			<img src="Windbreaker.PNG" alt="" title="" />
+		</div>
 
-
-	 <nav>
-         <ul>
-					 <ul>
-					     <li><a href="AboutUs.html">About Us</a></li>
-					     <li><a href="shoppingcart.html">Shopping Cart</a></li>
-					     <li><a href="newsletter.html">Newsletters</a></li>
-					     <li><a href="Products.html">Products</a></li>
-					     <li><a href="index.html">Home</a></li>
-					 </ul>
-      </nav>
-	</Header>
-	  <div class = "ProductPicture">
-	  <img src="Windbreaker.PNG" alt="" title="" />
-	  </div>
-
-	  <div class = "ProductInfo">
-	  <h2>Product Name</h2>
-			<div class = "ProductDescription">
-				<p>The favorite of guys who like hiking and e-girls everywhere. It's the windbreaker that's been all over instagr*m and tw*tter for you to want and not be able to afford. Except this is the cheap knockoff! Now's your chance to snag last years not so fashionable fashion statement.<br><br> While supplies last.
+		<div class="ProductInfo">
+			<h1>Windbreaker</h1>
+			<div class="ProductDescription">
+				<p>$135</p>
+				<p>The favorite of guys who like hiking and e-girls everywhere. It's the windbreaker that's been all
+					over instagr*m and tw*tter for you to want and not be able to afford. Except this is the cheap
+					knockoff! Now's your chance to snag last years not so fashionable fashion statement.<br><br> While
+					supplies last.
 				</p>
 			</div>
-			<div class = "Product Options">
-			<fieldset>
-				<legend>Color</legend>
-				<input type="radio" id="red" value="Red" name="color" />
-				<label for="red" id="RedLabel">Red</label>
-				<input type="radio" id="black" value="Black" name="color" />
-				<label for="black" id="BlackLabel">Black</label>
-			</fieldset>
+			<div class="Product Options">
+				<fieldset>
+					<legend>Color</legend>
+					<p>
+						<label>
+							<input name="group1" type="radio" />
+							<span>Red</span>
+						</label>
+					</p>
+					<p>
+						<label>
+							<input name="group1" type="radio" />
+							<span>Yellow</span>
+						</label>
+					</p>
+					<p>
+						<label>
+							<input name="group1" type="radio" />
+							<span>Green</span>
+						</label>
+					</p>
+					<p>
+						<label>
+							<input name="group1" type="radio" />
+							<span>Brown</span>
+						</label>
+					</p>
+				</fieldset>
 
-			<fieldset>
-				<legend>Size</legend>
-				<input type="radio" id="small" value="Small" name="size" />
-				<label for="small" id="SmallLabel">Small</label>
-				<input type="radio" id="medium" value="Medium" name="size" />
-				<label for="medium" id="MediumLabel">Medium</label>
-				<input type="radio" id="large" value="Large" name="size" />
-				<label for="large" id="LargeLabel">Large</label>
-			</fieldset>
+				<fieldset>
+					<legend>Size</legend>
+					<input type="radio" id="small" name="size" />
+					<span>Small</span>
+					<input type="radio" id="medium" value="Medium" name="size" />
+					<span>Medium</span>
+					<input type="radio" id="large" value="Large" name="size" />
+					<span>Large</span>
+				</fieldset>
 			</div>
-	  </div>
-</body>
+		</div>
+	</body>

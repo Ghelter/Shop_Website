@@ -122,6 +122,7 @@ function createEventListeners() {
    }
 }
 
+/*
 function zoomFig() {
    var propertyWidth = 960;
    var propertyHeight = 600;
@@ -133,6 +134,7 @@ function zoomFig() {
    var zoomWindow = window.open("ProductsZoom.html", "zoomwin", winOptions);
    zoomWindow.focus();
 }
+*/
 
 // create event listeners and populate image elements
 function setUpPage() {

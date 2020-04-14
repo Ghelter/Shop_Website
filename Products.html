@@ -1,61 +1,114 @@
 <DOCTYPE html>
-<html lang = "en">
-<head>
-<!--
-	ProductPage.htm
+	<html lang="en">
+
+	<head>
+		<!--
+	ProductPage.html
 	Final Project
 	Anthony Rivera
 -->
-	<meta charset="utf-8" />
-	 <link rel="stylesheet"  href="Products.css" />
-	<title>Products</title>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="Products.css" />
+		<title>Products</title>
+	</head>
 
-</head>
+	<body>
+		<nav>
+			<ul>
+				<li><a href="AboutUs.html">About Us</a></li>
+				<li><a href="shoppingcart.html">Shopping Cart</a></li>
+				<li><a href="newsletter.html">Newsletters</a></li>
+				<li><a href="Products2.html">Products</a></li>
+				<li><a href="index.html">Home</a></li>
+			</ul>
+		</nav>
+		<h1>Product Display</h1>
 
-<body>
+<!-- Slideshow container -->
+<div class="slideshow-container">
 
-   <div>
-      	<header>
-			<nav>
-				<ul>
-				    <li><a href="AboutUs.html">About Us</a></li>
-				    <li><a href="shoppingcart.html">Shopping Cart</a></li>
-				    <li><a href="newsletter.html">Newsletters</a></li>
-				    <li><a href="Products.html">Products</a></li>
-				    <li><a href="index.html">Home</a></li>
-				</ul>
-			</nav>
-
-		<h1>Product Page</h1>
-		</header>
-
-
-
-      <article>
-         <div id="leftarrow">
-            <p>&lt;</p>
-         </div>
-         <figure id="fig">
-            <img width="865" height="270" />
-         </figure>
-         <div id="rightarrow">
-            <p>&gt;</p>
-         </div>
-      </article>
-   </div>
-
-	<div id = "Product1">
-		<a href = "WhiteShirt.html"><img src= "WhiteShirt.png" height = "200"></a>
-		<p><a href = "WhiteShirt.html">The Black Shirt<br>$120</a></p>
+	<!-- Full-width images with number and caption text -->
+	<div class="mySlides fade">
+	  <div class="numbertext">1 / 6</div>
+	  <img src="SimpleDress.jpg" height="800" width="100" style="width:100%">
+	  <div class="text">Simple Dress</div>
 	</div>
-	<div id = "Product2">
-		<a href = "Windbreaker.html"><img src= "Windbreaker.PNG" height = "200"></a>
-		<p><a href = "Windbreaker.html">Windbreaker<br>$35</a></p>
+  
+	<div class="mySlides fade">
+	  <div class="numbertext">2 / 6</div>
+	  <img src="whiteshirt.jpg" height="800" width="100" style="width:100%">
+	  <div class="text">White Shirt</div>
 	</div>
-	<div id = "Product3">
-		<a href = "SimpleDress.html"><img src= "SimpleDress.jpg" height = "200"></a>
-		<p><a href = "SimpleDress.html">Dress<br>$22</a></p>
+  
+	<div class="mySlides fade">
+	  <div class="numbertext2">3 / 6</div>
+	  <img src="Windbreaker.PNG" height="800" width="100" style="width:100%">
+	  <div class="text2">WindBreaker</div>
 	</div>
-   <script src="Products.js"></script>
-</body>
-</html>
+
+	<div class="mySlides fade">
+		<div class="numbertext">4 / 6</div>
+		<img src="Dress2.jpg" height="800" width="100" style="width:100%">
+		<div class="text">Summer Dress</div>
+	  </div>
+
+	<div class="mySlides fade">
+		<div class="numbertext">5 / 6</div>
+		<img src="blackdress.jpg" height="800" width="100" style="width:100%">
+		<div class="text">Black Dress</div>
+	  </div>
+
+	<div class="mySlides fade">
+		<div class="numbertext">6 / 6</div>
+		<img src="Blackshirt.png" height="800" width="100" style="width:100%">
+		<div class="text">Black Shirt</div>
+	  </div>
+  
+	<!-- Next and previous buttons -->
+	<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+	<a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+	<span class="dot" onclick="currentSlide(1)"></span>
+	<span class="dot" onclick="currentSlide(2)"></span>
+	<span class="dot" onclick="currentSlide(3)"></span>
+	<span class="dot" onclick="currentSlide(4)"></span>
+	<span class="dot" onclick="currentSlide(5)"></span>
+	<span class="dot" onclick="currentSlide(6)"></span>
+  </div>
+		
+
+
+<div class="ProductShowcase">
+		<div id="Product1">
+			<a href="WhiteShirt.html"><img src="whiteshirt.jpg" height="200"></a>
+			<p><a href="WhiteShirt.html">The White Shirt<br>$40</a></p>
+		</div>
+		<div id="Product2">
+			<a href="Windbreaker.html"><img src="Windbreaker.PNG" height="200"></a>
+			<p><a href="Windbreaker.html">Windbreaker<br>$135</a></p>
+		</div>
+		<div id="Product6">
+			<a href="blackshirt.html"><img src="Blackshirt.png" height="200"></a>
+			<p><a href="blackshirt.html">Black Shirt<br>$40</a></p>
+		</div>
+		<div id="Product3">
+			<a href="SimpleDress.html"><img src="SimpleDress.jpg" height="200"></a>
+			<p><a href="SimpleDress.html">Dress<br>$62</a></p>
+		</div>
+		<div id="Product4">
+			<a href="summerdress.html"><img src="Dress2.jpg" height="200"></a>
+			<p><a href="summerdress.html">Summer Dress<br>$42</a></p>
+		</div>
+		<div id="Product5">
+			<a href="blackdress.html"><img src="blackdress.jpg" height="200"></a>
+			<p><a href="blackdress.html">Black Dress<br>$82</a></p>
+		</div>
+	</div>
+		<script src="ProductsTest.js"></script>
+	</body>
+
+	</html>
