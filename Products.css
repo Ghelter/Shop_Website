@@ -151,6 +151,29 @@ figure {
 	top: 0;
 }
 
+.ProductShowcase {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	padding: 0;
+	margin: 5em;
+	list-style: none;
+}
+
+.ProductShowcase div {
+	margin-top: 5px;
+	border: 2px black solid;
+	padding: 10px;
+}
+
+.ProductShowcase p {
+	text-align: center;	
+	font-weight: normal;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 22px;
+}
+
+/*
 #product1,
 #product2,
 #product3,
@@ -163,6 +186,7 @@ figure {
 	left: 10%;
 	text-align: center;
 }
+*/
 
 * {
 	box-sizing: border-box
