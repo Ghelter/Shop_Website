@@ -1,85 +1,88 @@
 body {
-margin: 0;
-padding: 0;
-text-align: center;
+    margin: 0;
+    padding: 0;
+    text-align: center;
 }
 
 /******* Navigation bar *******/
 ul {
-list-style-type: none;
-margin: 0;
-padding: 0;
-overflow: hidden;
-background-color: white;
-width: 100%;
-border-bottom-style: solid;
-border-bottom-width: thin;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    width: 100%;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
 }
 
 li {
-font-family: Arial, Helvetica, sans-serif;
-font-size: large;
-float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    float: right;
 }
 
 li a {
-display: block;
-color: black;
-text-align: center;
-padding: 14px 16px;
-text-decoration: none;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
+
 /*******           ********/
 
 /*******  Newsletter  ********/
+body {
+    background-color: aliceblue;
+}
 
 p {
-text-align: center;
-font-weight: bold;
-font-size: large;
-border: 3px white;
-padding: 50px 100px;
-margin: 100px;
-font-size: 2em;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+    border: 3px white;
+    padding: 50px 100px;
+    margin: 100px;
+    font-size: 2em;
 }
 
 .Newsletters {
-width:200px;
-height:200px;
-top: 50%;
-left: 50%;
-margin-top: 100px;
-margin-left: 1150px;
+    width: 200px;
+    height: 200px;
+    top: 50%;
+    left: 50%;
+    margin-top: 100px;
+    margin-left: 1150px;
 }
 
 .form {
-display: inline-block;
-flex-flow: row wrap;
-align-items: center;
+    display: inline-block;
+    flex-flow: row wrap;
+    align-items: center;
 }
 
 .form input {
-vertical-align: middle;
-margin: 0px 5px 5px 0px;
-padding: 20px 25px;
-background-color: #fff;
-border: 1px solid #ddd;
-border-radius: 25px;
+    vertical-align: middle;
+    margin: 0px 5px 5px 0px;
+    padding: 20px 25px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 25px;
 }
 
 .form button {
-padding: 20px 25px;
-background-color: #008000;
-border: 1px solid #ddd;
-border-radius: 25px;
-color: white;
+    padding: 20px 25px;
+    background-color: #008000;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    color: white;
 }
 
 .form button:hover {
-background-color: #004d33;
+    background-color: #004d33;
 }
 
 
 
 
-/*******           ********/

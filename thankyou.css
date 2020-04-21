@@ -1,0 +1,27 @@
+/*******    thank you html  ********/
+
+body {
+    background-color: aliceblue;
+}
+
+p {
+    text-align: center;
+    font-style: normal;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Bangers', cursive;
+    font-size: 30px;
+}
+
+a:link {
+    
+    padding: 20px 25px;
+    background-color: #008000;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Bangers', cursive;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    color: white;
+    vertical-align: middle;
+}
+
+/*******           ********/
